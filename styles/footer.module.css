@@ -1,0 +1,20 @@
+/* FOOTER */
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--black);
+  padding: 5rem 0;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+.copy {
+  color: var(--white);
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    flex-direction: row;
+  }
+}
