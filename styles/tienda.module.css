@@ -32,7 +32,7 @@
   padding: 2rem;
 }
 
-.img_wrap {
+.img-wrap {
   flex-shrink: 1;
 }
 
@@ -78,6 +78,14 @@
   max-width: 80rem;
   margin: 0 auto;
   min-height: 70rem;
+}
+
+.guitarra_sola .container_info {
+  width: 60%;
+}
+
+.guitarra_sola .img_wrap {
+  flex-grow: 1;
 }
 
 .texto {
